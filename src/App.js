@@ -26,6 +26,7 @@ const handleAdd = (newContact) => {
 
   return (
     <div className="App">
+              <h2>Yoshi's Contact List</h2>
               <ContactsForm handleAdd={handleAdd}/>
               <Contacts contacts={contacts} /> 
     </div>

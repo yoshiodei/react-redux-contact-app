@@ -1,7 +1,12 @@
+body{
+
+  font-family: arial;
+}
+
 form{
   display: flex;
   flex-direction: column;
-  margin: 30px;
+  margin: 30px auto;
   width: 250px;
   padding: 15px;
   border: 1px solid darkgray;
@@ -10,4 +15,19 @@ form{
 
 input[type="submit"]{
   margin-top: 10px;
+}
+
+label{
+  margin-top: 7px;
+}
+
+.contact__list{
+
+  margin: 30px auto;
+  width: 280px;
+}
+
+h2{
+  text-align: center;
+  
 }
